@@ -1,0 +1,30 @@
+// Flexbox
+@mixin dflex($justify, $align, $flow) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-flow: $flow;
+}
+
+// Grid
+@mixin dgrid($column, $row, $gap) {
+    display: grid;
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+    gap: $gap;
+}
+
+// Botons
+@mixin btn($bg, $txt) {
+    background: $bg;
+    color: $txt;
+}
+
+// Icons
+@mixin icons($container, $width, $height) {
+    width: $container;
+        a {
+            width: $width;
+            height: $height;
+        }
+}

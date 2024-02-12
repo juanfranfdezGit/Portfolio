@@ -1,0 +1,16 @@
+// GENERALES
+@import "generales/fonts";
+@import "generales/reset";
+@import "generales/mixin";
+@import "generales/variables";
+@import "generales/generales";
+
+// COMPONENTS
+@import "generales/componentes";
+
+// LAYOUT
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/about";
+@import "layout/oferta";
+@import "layout/menu";

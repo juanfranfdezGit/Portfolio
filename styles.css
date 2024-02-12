@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: '';
+    width: 50%;
+    height: 200%;
+    position: absolute;
+    left: -20vw;
+    top: -20vh;
+    background: #fff;
+    transform: rotate(15deg);
+}
+
+header .data {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    right: 5vw;
+}
+
+header .data h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+}
+
+header .data span {
+    color: #00d9ed;
+}
+
+header .data h2 {
+    font-size: 1.7em;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 2px;
+    color: #00d9ed;
+}
+
+header .profImg {
+    width: 100%;
+    height: 100%;
+    clip-path: circle(25%);
+    position: relative;
+    left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .profImg img {
+    width: 50%;
+    position: relative;
+    top: 10vh;
+}
+
+header .social li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 3em;
+    margin-top: 30px;
+}
+
+/* PROJECTS */
+.projects {
+    width: 100vw;
+    margin-top: 50px;
+}
+
+.projects h1 {
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.projects .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.projects .cards .card {
+    width: 90%;
+    height: 600px;
+    background: rgba(255, 255, 255, .8);
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 2px 5px rgba(255, 255, 255, .8);
+    position: relative;
+    overflow: hidden;
+}
+
+.projects .cards .card .webImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.projects .cards .card .webImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.projects .cards .card .cardData {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, .8);
+}
+
+.projects .cards .card .cardData h1 {
+    margin-bottom: 5px;
+}
+
+.projects .cards .card .cardData a {
+    color: #fff;
+}
+
+.projects .cards .card .cardData p {
+    font-size: 1.5em;
+}

@@ -1,0 +1,18 @@
+.oferta {
+    position: relative;
+    @include dflex(center, center, column nowrap);
+    width: 100%;
+    height: 70vh;
+    background: url(../img/img02.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    &::before {
+        @extend .overlay;
+    }
+
+    * {
+        position: relative;
+    }
+}

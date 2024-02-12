@@ -1,0 +1,5 @@
+.menu {
+    &_container {
+        @include dflex (space-between, center, row wrap);
+    }
+}
