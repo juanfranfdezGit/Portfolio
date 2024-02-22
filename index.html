@@ -8,83 +8,72 @@
 </head>
 <body>
 
+    <!-- NAVBAR -->
+    <nav>
+        <div class="links flex">
+            <img src="img/logo.png" alt="logo">
+            <div>
+                <a href="#web">Web Projects</a>
+            </div>
+        </div>
+        
+        <div class="social">
+            <li class="flex">
+                <ul><a href="https://github.com/juanfranfdezGit" target="_blank"><i class="fa-brands fa-github"></i></a></ul>
+                <ul><a href="https://www.linkedin.com/in/juan-francisco-romero-fernandez-928526225/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></ul>
+            </li>
+        </div>
+    </nav>
+
     <!-- HEADER -->
-    <header>
-        <section class="profImg">
+    <header class="flex">
+        <section class="profImg flex">
             <img src="Foto.jpg" alt="foto">
         </section>
 
-        <section class="data">
+        <section class="data flex">
             <h1><span>&#60h1&#62</span> Juan Fco Romero Fdez <span>&#60/h1&#62</span></h1>
             <h2>Web Development & Graphic Design</h2>
-            <div class="social">
-                <li>
-                    <ul><a href="https://github.com/juanfranfdezGit" target="_blank"><i class="fa-brands fa-github"></i></a></ul>
-                    <ul><a href="https://www.linkedin.com/in/juan-francisco-romero-fernandez-928526225/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></ul>
-                </li>
-            </div>
         </section>
     </header>
 
     <!-- PROJECTS -->
-    <section class="projects">
+    <section class="projects" id="web">
         <h1>Web Projects</h1>
 
-        <div class="cards">
-            <div class="card">
-                <div class="webImg">
-                    <img src="img/apple.png" alt="apple">
-                </div>
-                <div class="cardData">
-                    <a href="AppleCommerce/index.html" target="_blank"><h1>Apple Commerce</h1></a>
-                </div>
+        <section class="project flex">
+            <div class="screenshot flex">
+                <img src="img/apple.png" alt="apple">
             </div>
+            <div class="info flex">
+                <h1 class="title">Apple Commerce</h1>
+                <p class="description">Unofficial E-Commerce with Apple products. This website is developed with HTML and CSS and it's optimized for standard screen sizes.</p>
+                <a href="AppleCommerce/index.html" class="flex" target="_blank">Go!</a>
+            </div>
+        </section>
 
-            <div class="card">
-                <div class="webImg">
-                    <img src="img/games.png" alt="games">
-                </div>
-                <div class="cardData">
-                    <a href="videoGames/index.html" target="_blank"><h1>Videogames Blog</h1></a>
-                </div>
+        <section class="project flex">
+            <div class="info flex">
+                <h1 class="title">Smash Burguer</h1>
+                <p class="description">Unofficial Smash burguers website. This website is developed with HTML and CSS and it's optimized for standard screen sizes.</p>
+                <a href="Burguers/index.html" class="flex" target="_blank">Go!</a>
             </div>
+            <div class="screenshot flex">
+                <img src="img/burguer.png" alt="burger">
+            </div>
+        </section>
 
-            <div class="card">
-                <div class="webImg">
-                    <img src="img/burguer.png" alt="burguer">
-                </div>
-                <div class="cardData">
-                    <a href="Burguers/index.html" target="_blank"><h1>Restaurant</h1></a>
-                </div>
+        <section class="project flex">
+            <div class="screenshot flex">
+                <img src="img/form.png" alt="burger">
             </div>
-
-            <div class="card">
-                <div class="webImg">
-                    <img src="img/form.png" alt="form">
-                </div>
-                <div class="cardData">
-                    <a href="form/index.html" target="_blank"><h1>Form Practice</h1></a>
-                </div>
+            <div class="info flex">
+                <h1 class="title">Form Practice</h1>
+                <p class="description">Practice for a form example that we can easy develop with HTML and CSS, the form is just front end practice. It's optimized for standard screen sizes.</p>
+                <a href="form/index.html" class="flex" target="_blank">Go!</a>
             </div>
-
-            <div class="card">
-                <div class="webImg">
-                    <img src="img/pint.png" alt="form">
-                </div>
-                <div class="cardData">
-                    <a href="Pinterest/index.html" target="_blank"><h1>Pinterest</h1></a>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="webImg">
-                    <img src="img/cod.png" alt="cod">
-                </div>
-                <div class="cardData">
-                    <a href="CoD/index.html" target="_blank"><h1>Call Of Duty</h1></a>
-                </div>
-            </div>
-        </div>
+        </section>
+        
     </section>
     
 </body>

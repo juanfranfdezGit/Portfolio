@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERALES */
+body {
+    background: #f0f0f0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background: #444;
+    width: 98%;
+    height: 100%;
+    border: 1px solid rgba(51, 51, 51, 0.8);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.blue-btn {
+    background: rgba(2, 184, 216, 0.929);
+    border: 1px solid rgb(2, 184, 216, 1);
+}
+
+/* CALC */
+.calc {
+    width: 30vw;
+    height: 60vh;
+    margin: 10vh auto;
+    background: #222;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, .6);
+}
+
+.calc .buttons {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 96%;
+}
+
+.calc li {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 7vh;
+    margin-bottom: 5px;
+}
+
+.calc .buttons li button {
+    transition: all .5s;
+}
+
+.calc .buttons li button:hover {
+    cursor: pointer;
+}
+
+.span2 {
+    grid-column: span 2;
+}
+
+.row2 {
+    height: 205%;
+}
+
+.datas {
+    width: 95%;
+    height: 30%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    border: 1px solid rgba(0, 0, 0, .6);
+    box-shadow: inset 0 0 10px 0px rgba(2, 184, 216, 0.929);
+    border-radius: 20px;
+}
+
+.maths {
+    width: 100%;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.results {
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}

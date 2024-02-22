@@ -105,6 +105,7 @@ header {
     background: url(imgs/header.webp);
     background-position: top;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -139,6 +140,7 @@ header {
     background: url(imgs/codww.jpg);
     background-position: top;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -160,13 +162,14 @@ header {
     background: url(imgs/codmw2.jpg);
     background-position: top;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
     width: 100vw;
     height: 100vh;
 }
 
 .codmw2 .data {
-    left: 55%;
+    left: 60%;
 }
 
 /* CODMW3 */
