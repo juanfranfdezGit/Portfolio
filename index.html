@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
 
@@ -13,7 +14,7 @@
         <div class="links flex">
             <img src="img/logo.png" alt="logo">
             <div>
-                <a href="#web">Web Projects</a>
+                <a href="#web">Proyectos Web</a>
             </div>
         </div>
         
@@ -33,47 +34,79 @@
 
         <section class="data flex">
             <h1><span>&#60h1&#62</span> Juan Fco Romero Fdez <span>&#60/h1&#62</span></h1>
-            <h2>Web Development & Graphic Design</h2>
+            <h2>Desarrollo Web y Diseño Gráfico</h2>
         </section>
     </header>
 
     <!-- PROJECTS -->
-    <section class="projects" id="web">
-        <h1>Web Projects</h1>
+    <section class="projects flex" id="web">
+        <h1>Proyectos Web</h1>
 
         <section class="project flex">
+            <div class="screenshot flex">
+                <img src="img/games.png" alt="games">
+            </div>
+            <div class="info flex">
+                <h1 class="title">Blog de Videojuegos</h1>
+                <p class="description">Blog de videojuegos desarrollado con HTML y CSS, esta web está optimizada para escritorios. La web se compone de un menú de navegación con las diferentes redes sociales, un menú de navegación para navegar y buscar dentro de nuestro blog y varaias secciones con las últimas novedades en videojuegos.</p>
+                <a href="videoGames/index.html" class="flex" target="_blank">Go!</a>
+            </div>
+        </section>
+
+        <section class="project flex">
+            <div class="info flex">
+                <h1 class="title">Apple E-Commerce</h1>
+                <p class="description">E-Commerce no oficial de productos Apple. Esta página esta desarrollada únicamente con HTML y CSS, la web por el momento solo está optimizada para escritorio.</p>
+                <p class="description">La web se compone de un menú de navegación con el que podremos navegar a las diferentes secciones, un Header con el producto estrella y a continuación una serie de secciones en las que he distribuido los diferentes productos de nuestra Web.</p>
+                <a href="AppleCommerce/index.html" class="flex" target="_blank">Go!</a>
+            </div>
             <div class="screenshot flex">
                 <img src="img/apple.png" alt="apple">
             </div>
-            <div class="info flex">
-                <h1 class="title">Apple Commerce</h1>
-                <p class="description">Unofficial E-Commerce with Apple products. This website is developed with HTML and CSS and it's optimized for standard screen sizes.</p>
-                <a href="AppleCommerce/index.html" class="flex" target="_blank">Go!</a>
-            </div>
         </section>
 
         <section class="project flex">
-            <div class="info flex">
-                <h1 class="title">Smash Burguer</h1>
-                <p class="description">Unofficial Smash burguers website. This website is developed with HTML and CSS and it's optimized for standard screen sizes.</p>
-                <a href="Burguers/index.html" class="flex" target="_blank">Go!</a>
-            </div>
             <div class="screenshot flex">
                 <img src="img/burguer.png" alt="burger">
             </div>
+            <div class="info flex">
+                <h1 class="title">Smash Burguer</h1>
+                <p class="description">Pagína no oficial sobre un restaurante dedicado a preparar smash burguers. Esta web ha sido desarrollada con SASS, para dar el mejor diseño de una forma dinámica a nuestra web.</p>
+                <p class="description">En ella podremos encontrar una presentación de nuestro restarurante y un pequeño menú donde veremos la carta del local.</p>
+                <a href="Burguers/index.html" class="flex" target="_blank">Go!</a>
+            </div>
+        </section>
+    </section>
+
+    <section class="practices">
+        <h2 class="flex"> Pequeñas Prácticas Web</h2>
+        
+        <section class="practice flex">
+            <h1 class="title">Práctica Formulario</h1>
+            <p class="description">Diseño de un formulario de contacto.</p>
+            <a href="form/index.html" class="flex" target="_blank"><i class="fa-solid fa-right-long"></i></a>
+            <div class="screenshot flex">
+                <img src="img/form.png" alt="form">
+            </div>
         </section>
 
-        <section class="project flex">
+        <section class="practice flex">
+            <h1 class="title">Práctica Card 3D</h1>
+            <p class="description">Pequeña práctica de una card con efecto 3D.</p>
+            <a href="Card3D/home.html" class="flex" target="_blank"><i class="fa-solid fa-right-long"></i></a>
             <div class="screenshot flex">
-                <img src="img/form.png" alt="burger">
-            </div>
-            <div class="info flex">
-                <h1 class="title">Form Practice</h1>
-                <p class="description">Practice for a form example that we can easy develop with HTML and CSS, the form is just front end practice. It's optimized for standard screen sizes.</p>
-                <a href="form/index.html" class="flex" target="_blank">Go!</a>
+                <img src="img/card.png" alt="card">
             </div>
         </section>
-        
+
+        <section class="practice flex">
+            <h1 class="title">LLuvia de Estrellas</h1>
+            <p class="description">Web con efecto de lluvia de estrellas desarrollado con CSS.</p>
+            <a href="Estrellas/home.html" class="flex" target="_blank"><i class="fa-solid fa-right-long"></i></a>
+            <div class="screenshot flex">
+                <img src="img/estrellas.png" alt="estrellas">
+            </div>
+        </section>
     </section>
     
 </body>
